@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Parcel
+.cache/
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Editor and IDE files (optional, based on personal preference)
+.vscode/
+.idea/
