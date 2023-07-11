@@ -5,6 +5,7 @@ class Automobile1 {
 }
 
 const car1: Automobile1 = new Automobile1();
+
 console.log('without static>>>>>>>>', car1.color1);
 
 //example 1
@@ -12,7 +13,9 @@ console.log('without static>>>>>>>>', car1.color1);
 //where ever we dont need to intantiate there we can use static method and that class should not be interlinked with each other
 //for example a helper class with all helpers which can be used anywere
 //another real world example is math obj in js
+//in a class both the property and the methods of the class can be a static property
 
+//The math object does not require you to be instantiated first, and the properties and methods of the math obj can be intatiaed directly
 const pi = Math.PI;
 console.log('>>>>>>>>>>>>>pipi>>>>>>>>>', pi);
 class Automobile {
