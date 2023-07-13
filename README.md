@@ -6,3 +6,4 @@
 - funtion
 - generics
 - diff between the use case of interface and abstract class
+- modifires
